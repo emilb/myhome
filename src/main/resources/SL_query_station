@@ -1,0 +1,58 @@
+GET http://2.latest.resisthlm-api.appspot.com/api/GetSites?query=ang HTTP/1.1
+Host: 2.latest.resisthlm-api.appspot.com
+User-Agent: ResISTHLM/2.1.1,gzip Paros/3.2.13
+Accept: */*
+Accept-Language: en-us
+Pragma: no-cache
+Connection: keep-alive
+Proxy-Connection: keep-alive
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sites-result>
+   <sites>
+      <site>
+         <identifier>2430</identifier>
+         <name>ANGA</name>
+      </site>
+      <site>
+         <identifier>2430</identifier>
+         <name>Angarns kyrka</name>
+         <area>Vallentuna</area>
+      </site>
+      <site>
+         <identifier>2457</identifier>
+         <name>Angleterre</name>
+         <area>Vallentuna</area>
+      </site>
+      <site>
+         <identifier>6167</identifier>
+         <name>AngskŠr-Skogsvik</name>
+         <area>NorrtŠlje</area>
+      </site>
+      <site>
+         <identifier>6168</identifier>
+         <name>AngskŠr-Solbacken</name>
+         <area>NorrtŠlje</area>
+      </site>
+      <site>
+         <identifier>4115</identifier>
+         <name>ngbŒtsvŠgen</name>
+         <area>Nacka</area>
+      </site>
+      <site>
+         <identifier>3885</identifier>
+         <name>ngermannagatan</name>
+         <area>Stockholm</area>
+      </site>
+      <site>
+         <identifier>2202</identifier>
+         <name>NGA</name>
+      </site>
+      <site>
+         <identifier>2202</identifier>
+         <name>ngaren</name>
+         <area>TŠby</area>
+      </site>
+   </sites>
+</sites-result>

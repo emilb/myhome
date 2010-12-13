@@ -1,0 +1,249 @@
+GET http://2.latest.resisthlm-api.appspot.com/api/GetDepartures?identifier=9201&timeWindow=30 HTTP/1.1
+Host: 2.latest.resisthlm-api.appspot.com
+User-Agent: ResISTHLM/2.1.1,gzip Paros/3.2.13
+Accept: */*
+Accept-Language: en-us
+Pragma: no-cache
+Connection: keep-alive
+Proxy-Connection: keep-alive
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DPS>
+   <LatestUpdate>2010-11-08T22:21:02.443375+0100</LatestUpdate>
+   <Buses>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>509</LineNumber>
+         <Destination>Brommaplan</Destination>
+         <TimeTabledDateTime>2010-11-08T22:23:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:23:00</ExpectedDateTime>
+         <DisplayTime>1</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>602H</LineNumber>
+         <Destination>Danderyds sjukhus</Destination>
+         <TimeTabledDateTime>2010-11-08T22:25:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:25:00</ExpectedDateTime>
+         <DisplayTime>3</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>611</LineNumber>
+         <Destination>TŠby kyrkby</Destination>
+         <TimeTabledDateTime>2010-11-08T22:26:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:26:00</ExpectedDateTime>
+         <DisplayTime>4</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>176</LineNumber>
+         <Destination>Stenhamra</Destination>
+         <TimeTabledDateTime>2010-11-08T22:27:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:27:00</ExpectedDateTime>
+         <DisplayTime>5</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>639</LineNumber>
+         <Destination>Rimbo</Destination>
+         <TimeTabledDateTime>2010-11-08T22:28:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:28:00</ExpectedDateTime>
+         <DisplayTime>6</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>670</LineNumber>
+         <Destination>Stockholm</Destination>
+         <TimeTabledDateTime>2010-11-08T22:29:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:29:21</ExpectedDateTime>
+         <DisplayTime>8</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>177</LineNumber>
+         <Destination>Mšrby station</Destination>
+         <TimeTabledDateTime>2010-11-08T22:35:44</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:36:29</ExpectedDateTime>
+         <DisplayTime>15</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>610</LineNumber>
+         <Destination>Vallentuna (RosengŒrden)</Destination>
+         <TimeTabledDateTime>2010-11-08T22:41:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:41:00</ExpectedDateTime>
+         <DisplayTime>19</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>601H</LineNumber>
+         <Destination>Danderyds sjukhus</Destination>
+         <TimeTabledDateTime>2010-11-08T22:42:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:42:00</ExpectedDateTime>
+         <DisplayTime>20</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>606</LineNumber>
+         <Destination>Djursholms torg</Destination>
+         <TimeTabledDateTime>2010-11-08T22:42:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:42:00</ExpectedDateTime>
+         <DisplayTime>20</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>177</LineNumber>
+         <Destination>Ekerš, SkŠrvik</Destination>
+         <TimeTabledDateTime>2010-11-08T22:42:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:42:00</ExpectedDateTime>
+         <DisplayTime>20</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>178</LineNumber>
+         <Destination>Mšrby station</Destination>
+         <TimeTabledDateTime>2010-11-08T22:42:39</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:42:39</ExpectedDateTime>
+         <DisplayTime>21</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>670</LineNumber>
+         <Destination>Vaxholm</Destination>
+         <TimeTabledDateTime>2010-11-08T22:44:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:44:00</ExpectedDateTime>
+         <DisplayTime>22</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>676</LineNumber>
+         <Destination>NorrtŠlje</Destination>
+         <TimeTabledDateTime>2010-11-08T22:48:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:48:00</ExpectedDateTime>
+         <DisplayTime>26</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BLUEBUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>178</LineNumber>
+         <Destination>Jakobsbergs station</Destination>
+         <TimeTabledDateTime>2010-11-08T22:48:59</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:48:59</ExpectedDateTime>
+         <DisplayTime>27</DisplayTime>
+      </DpsBus>
+      <DpsBus>
+         <SiteId>9201</SiteId>
+         <StopAreaNumber>50366</StopAreaNumber>
+         <TransportMode>BUS</TransportMode>
+         <StopAreaName>Danderyds sjukhus</StopAreaName>
+         <LineNumber>607</LineNumber>
+         <Destination>Karolinska sjukhuset</Destination>
+         <TimeTabledDateTime>2010-11-08T22:51:00</TimeTabledDateTime>
+         <ExpectedDateTime>2010-11-08T22:51:00</ExpectedDateTime>
+         <DisplayTime>29</DisplayTime>
+      </DpsBus>
+   </Buses>
+   <Metros>
+      <DpsMetro>
+         <SiteId>9201</SiteId>
+         <TransportMode>METRO</TransportMode>
+         <LineNumber>14</LineNumber>
+         <Destination>FruŠngen</Destination>
+         <DisplayTime>12</DisplayTime>
+         <JourneyDirection>1</JourneyDirection>
+         <GroupOfLine>Tunnelbanans ršda linje</GroupOfLine>
+      </DpsMetro>
+      <DpsMetro>
+         <SiteId>9201</SiteId>
+         <TransportMode>METRO</TransportMode>
+         <LineNumber>14</LineNumber>
+         <Destination>FruŠngen</Destination>
+         <DisplayTime>27</DisplayTime>
+         <JourneyDirection>1</JourneyDirection>
+         <GroupOfLine>Tunnelbanans ršda linje</GroupOfLine>
+      </DpsMetro>
+      <DpsMetro>
+         <SiteId>9201</SiteId>
+         <TransportMode>METRO</TransportMode>
+         <LineNumber>14</LineNumber>
+         <Destination>FruŠngen</Destination>
+         <DisplayTime>23:03</DisplayTime>
+         <JourneyDirection>1</JourneyDirection>
+         <GroupOfLine>Tunnelbanans ršda linje</GroupOfLine>
+      </DpsMetro>
+      <DpsMetro>
+         <SiteId>9201</SiteId>
+         <TransportMode>METRO</TransportMode>
+         <LineNumber>14</LineNumber>
+         <Destination>Mšrby centrum</Destination>
+         <DisplayTime>1</DisplayTime>
+         <JourneyDirection>2</JourneyDirection>
+         <GroupOfLine>Tunnelbanans ršda linje</GroupOfLine>
+      </DpsMetro>
+      <DpsMetro>
+         <SiteId>9201</SiteId>
+         <TransportMode>METRO</TransportMode>
+         <LineNumber>14</LineNumber>
+         <Destination>Mšrby centrum</Destination>
+         <DisplayTime>17</DisplayTime>
+         <JourneyDirection>2</JourneyDirection>
+         <GroupOfLine>Tunnelbanans ršda linje</GroupOfLine>
+      </DpsMetro>
+      <DpsMetro>
+         <SiteId>9201</SiteId>
+         <TransportMode>METRO</TransportMode>
+         <LineNumber>14</LineNumber>
+         <Destination>Mšrby centrum</Destination>
+         <DisplayTime>31</DisplayTime>
+         <JourneyDirection>2</JourneyDirection>
+         <GroupOfLine>Tunnelbanans ršda linje</GroupOfLine>
+      </DpsMetro>
+   </Metros>
+   <Trains/>
+   <Trams/>
+</DPS>

@@ -1,0 +1,25 @@
+<project name="Kassahjälpen">
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-stylus-skin</artifactId>
+		<version>1.2</version>
+	</skin>
+
+	<version position="left" />
+	<publishDate position="left" format="yyyy-MM-dd HH:mm:ss" />
+
+
+	<bannerLeft>
+		<name>Kassahjälpen</name>
+		<src>images/header_logo.jpg</src>
+		<href>http://mavensite.kassahjalpen.se</href>
+	</bannerLeft>
+	<body>
+		<menu name="Kassahjälpen">
+			<item name="Overview" href="index.html" />
+		</menu>
+
+		<menu ref="reports" />
+
+	</body>
+</project>

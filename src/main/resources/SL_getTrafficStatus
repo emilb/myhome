@@ -1,0 +1,10 @@
+GET http://2.latest.resisthlm-api.appspot.com/api/GetTrafficStatus HTTP/1.1
+Host: 2.latest.resisthlm-api.appspot.com
+User-Agent: ResISTHLM/2.1.1,gzip Paros/3.2.13
+Accept: */*
+Accept-Language: en-us
+Pragma: no-cache
+Connection: keep-alive
+Proxy-Connection: keep-alive
+
+<?xml version="1.0"?><TrafficStatus xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sl.se/TrafficStatus.xsd">  <TrafficTypes>    <TrafficType Name="Tunnelbana" Expanded="false" HasPlannedEvent="false" TrafficStatus="Fungerar bra">      <Events />    </TrafficType>    <TrafficType Name="PendeltŒg" Expanded="false" HasPlannedEvent="false" TrafficStatus="Fungerar bra">      <Events />    </TrafficType>    <TrafficType Name="Lokalbana" Expanded="false" HasPlannedEvent="false" TrafficStatus="Fungerar bra">      <Events />    </TrafficType>    <TrafficType Name="SpŒrvagn" Expanded="false" HasPlannedEvent="false" TrafficStatus="Fungerar bra">      <Events />    </TrafficType>    <TrafficType Name="Bussar" Expanded="false" HasPlannedEvent="false" TrafficStatus="Fungerar bra">      <Events />    </TrafficType>  </TrafficTypes></TrafficStatus>

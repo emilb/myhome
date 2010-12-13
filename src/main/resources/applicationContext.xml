@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="
+	    http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+
+    <context:component-scan base-package="se.greyzone" />
+
+    <tx:annotation-driven />
+
+	<task:scheduler id="taskScheduler"/>
+	<task:executor id="taskExecutor" pool-size="1"/> <!-- Used for @Async methods -->
+	<task:annotation-driven executor="taskExecutor" scheduler="taskScheduler"/>
+
+	<bean id="mongo"
+		class="com.mongodb.Mongo"/>
+
+	<bean id="morphiaFactory"
+		class="se.greyzone.myhome.dao.MorphiaFactoryBean">
+		<property name="mappedPackage" value="se.greyzone.myhome.domain"/>
+	</bean>
+
+
+
+<!--    <security:global-method-security secured-annotations="enabled" jsr250-annotations="enabled"/>-->
+<!---->
+<!--    <security:http entry-point-ref="myAuthenticationEntryPoint" >-->
+        <!-- define url's and applicable roles --> 
+<!--        <security:intercept-url pattern="/css/**" filters="none"/>-->
+<!--        <security:intercept-url pattern="/images/**" filters="none"/>-->
+<!---->
+<!--        <security:intercept-url pattern="/common/createAccount.action" access="ROLE_ANONYMOUS"/>-->
+<!---->
+<!--        <security:intercept-url pattern="/organisation/**" access="ROLE_ADMIN" />-->
+<!--        <security:intercept-url pattern="/admin/**" access="ROLE_SYSADMIN" />-->
+<!--        <security:intercept-url pattern="/reports/**" access="ROLE_SYSADMIN, ROLE_REPORTS" />-->
+<!--        <security:logout logout-success-url="/common/logout.action" />-->
+<!---->
+<!--        <security:anonymous username="guest"-->
+<!--            granted-authority="ROLE_ANONYMOUS" />-->
+<!--    </security:http>-->
+<!---->
+<!--    <security:authentication-manager alias="authenticationManager" />-->
+<!---->
+<!--    <bean id="loggerListener"-->
+<!--        class="org.springframework.security.authentication.event.LoggerListener" />-->
+<!---->
+<!--	<bean id="myAuthenticationEntryPoint" class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint">-->
+<!--        <property name="loginFormUrl" value="/common/login.action" />-->
+<!--    </bean>-->
+
+</beans>

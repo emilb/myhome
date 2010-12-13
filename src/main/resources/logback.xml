@@ -1,0 +1,26 @@
+<configuration>
+
+	<contextName>${project.build.finalName}</contextName>
+	<jmxConfigurator />
+
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.path}/${project.build.finalName}.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.path}/${project.build.finalName}-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d %-5level %logger{35} - %msg %n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="net" level="ERROR"/>
+	<logger name="org" level="ERROR" />
+	<logger name="com" level="ERROR" />
+	<logger name="se" level="INFO" />
+
+	<root level="INFO">
+		<appender-ref ref="FILE" />
+	</root>
+
+</configuration>
